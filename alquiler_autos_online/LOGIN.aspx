@@ -7,8 +7,8 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 54%;
-            height: 253px;
+            width: 50%;
+            height: 290px;
         }
         .auto-style2 {
             width: 170px;
@@ -35,8 +35,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="btnAcep" runat="server" Text="Aceptar" Width="168px" CssClass="auto-style3" />
+                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="btnAcep" runat="server" Text="Aceptar" Width="168px" CssClass="auto-style3" />
                     </td>
                 </tr>
             </table>
