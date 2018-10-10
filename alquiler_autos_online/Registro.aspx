@@ -26,28 +26,33 @@
                     <td class="auto-style2" colspan="2"><strong>REGISTRO DE USUARIO</strong></td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">Nombre Completo</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <td class="auto-style3">Nombre</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">Apellido</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Nombre de Usuario</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtUsser" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Correo Electronico</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtMail" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Contraseña</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Confirme su Contraseña</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:TextBox ID="txtCon" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
