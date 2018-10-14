@@ -77,6 +77,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.min.css" />
     <Content Include="DB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DB.Context.cs</LastGenOutput>
@@ -91,10 +92,12 @@
     <Content Include="Ingreso.aspx" />
     <Content Include="LOGIN.aspx" />
     <Content Include="Registro.aspx" />
+    <Content Include="RegUser.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Formulario web1.aspx" />
+    <Content Include="webform.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.Context.cs">
@@ -156,12 +159,33 @@
     <Compile Include="Formulario web1.aspx.designer.cs">
       <DependentUpon>Formulario web1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RegUser.aspx.cs">
+      <DependentUpon>RegUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegUser.aspx.designer.cs">
+      <DependentUpon>RegUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Roles.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
     <Compile Include="Tools.cs" />
     <Compile Include="Usuarios.cs">
       <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vacio.Master.cs">
+      <DependentUpon>Vacio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vacio.Master.designer.cs">
+      <DependentUpon>Vacio.Master</DependentUpon>
+    </Compile>
+    <Compile Include="webform.aspx.cs">
+      <DependentUpon>webform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webform.aspx.designer.cs">
+      <DependentUpon>webform.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +202,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Vacio.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -5,15 +5,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-
 namespace alquiler_autos_online
 {
-    public partial class Registro : System.Web.UI.Page
+    public partial class RegUser : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
         }
-        protected void btnCrear_Click(object sender, EventArgs e)
+
+        protected void btnRegistro_Click(object sender, EventArgs e)
         {
             lblMsj.Text = "";
             if (String.IsNullOrWhiteSpace(txtUsuario.Text))
@@ -89,6 +90,11 @@ namespace alquiler_autos_online
                     }
                 }
             }
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
